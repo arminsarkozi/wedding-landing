@@ -1,0 +1,220 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('assets/wedding-landing-background.png') repeat center;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+    color: #444349;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, ul, ol, p, img {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    height: 7.5rem;
+}
+
+a {
+    color: #bd806e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eda087;
+    transition: color .15s ease-in-out;
+}
+
+/* Header Styles */
+.cover {
+    background: url('assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-text {
+    margin: 0 auto;
+    padding: .625rem;
+    background-color: hsla(100,0%,0%,.5);
+    color: hsla(0,0%,100%,.9);
+}
+
+.tagline {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+}
+
+.tagline::after {
+    display: block;
+    clear: both;
+    content: "";
+    height: 1px;
+    width: 12.515625rem;
+    background-color: #fff;
+    margin: 0.5rem auto;
+}
+
+.header-text h1 {
+    font-size: 3.15rem;
+    color: #d2ba87;
+    margin-bottom: 0;
+}
+
+.date {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+    vertical-align: middle;
+}
+
+.date::after, .date::before {
+    display: inline-block;
+    content: "";
+    width: 1.5rem;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 .5rem;
+    vertical-align: middle;
+}
+
+/* ==== MAIN STYLES ==== */
+
+.location,  .program, .gifts, .faq, .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+/* LOCATIONS */
+.location {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.location h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.blurb h3 {
+    font-weight: 700;
+}
+
+.blurb div {
+    font-family: Muli, sans-serif;
+}
+
+.blurb::after {
+    display: block;
+    content: "";
+    background-color: #444349;
+    width: 25vw;
+    height: .1875rem;
+    margin: 1.5rem auto;
+}
+
+/* PROGRAM */
+.program {
+    width: 100%;
+    background-color: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Muli, sans-serif;
+}
+
+.program p {
+    font-style: italic;
+}
+
+.program ul {
+    letter-spacing: .025rem;
+}
+
+.program h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* FAQ */
+.faq {
+    width: 100%;
+    background-color: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    text-align: left;
+}
+
+.faq h2, .faq h3 {
+    text-align: center;
+}
+
+.faq p {
+    font-family: Muli, sans-serif;
+}
+
+.question {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.question-group::after {
+    content: "";
+    display: block;
+    width: 50vw;
+    height: 3px;
+    background-color: #d2ba87;
+    margin: 1.5rem auto;
+}
+
+/* FOOTER STYLES */
+footer {
+    display: table;
+    height: 10vh;
+    width: 100%;
+    background-color: #606060;
+    color: #fff;
+    font-family: Muli, sans-serif;
+    font-size: .875rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0.5rem 1rem;
+}
+
+footer small {
+    line-height: 1.5;
+}
