@@ -215,7 +215,7 @@ a:hover {
     content: "";
     display: block;
     width: 50vw;
-    height: 3px;
+    height: .1875rem;
     background-color: #d2ba87;
     margin: 1.5rem auto;
 }
@@ -226,7 +226,7 @@ a:hover {
           width: 30%;
           vertical-align: top;
           padding: 1.5rem;
-          margin: 0.8rem 1.2rem;
+          margin: .5rem;
       }
 
       .question-group::after {
