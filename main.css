@@ -238,6 +238,11 @@ a:hover {
       }
 }
 
+/* GIFTS */
+.gifts p:last-child {   /* To even out the bottom and top margins of this section. */
+    margin-bottom: 0;
+}
+
 /* FOOTER STYLES */
 footer {
     display: table;
