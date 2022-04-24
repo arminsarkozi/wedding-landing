@@ -104,6 +104,22 @@ a:hover {
     vertical-align: middle;
 }
 
+@media (min-width: 768px) {
+    .tagline {
+        text-transform: uppercase;
+    }
+
+    .header-text {
+        padding: 1.25rem;
+        border-radius: 4px;
+        width: 50%;
+    }
+
+    .header-text h1 {
+        font-size: 7rem;
+    }
+}
+
 /* ==== MAIN STYLES ==== */
 
 .location,  .program, .gifts, .faq, .contact {
@@ -264,4 +280,12 @@ footer {
 
 footer small {
     line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+
+    footer {
+      min-height: 7vh;
+    }
+  
 }
